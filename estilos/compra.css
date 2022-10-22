@@ -1,0 +1,122 @@
+@charset "UFT-8";
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Fredoka+One&family=Libre+Franklin:wght@100&family=Oswald&family=Passion+One&family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+    background-color: #f8eedc;
+}
+h1{
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+p{
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+header{
+    padding-top: 0px;
+    margin-bottom: 100px;
+}
+header img{
+    height: 100%;
+    width: 100%;
+}
+
+
+#menu-h{
+    background-color:#013B72;
+    text-align: center;
+}
+
+#menu-h ul {
+    max-width: 800px;
+    list-style: none;
+    padding: 0;
+}
+
+#menu-h ul li {
+    display: inline;
+    text-align: center;
+}
+
+#menu-h ul li a {
+    color: #FFF;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+}
+
+#menu-h ul li a:hover {
+    background-color:#FE9171;
+}
+
+#menu-h ul li:last-child a {
+    text-align: right;
+}
+
+main{
+    margin: 10px;
+    padding: 15px;
+}
+
+
+main h1{
+    font-family: 'Libre Franklin', sans-serif;
+    text-align: center;
+    padding: 50px
+}
+main p{
+    font-size: 20px;
+    padding: 5px;
+}
+
+b{
+    color: #FE9171;
+}
+
+
+
+div img{
+    height: 300px;
+    width: 300px;
+    align-items: center;
+    margin: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    text-align: center;
+    background-color: #0c4375;
+    color: #000000;
+    margin-bottom: 5px;
+}
+footer img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    padding: 10px;
+    display: inline-block;
+}
+
+footer img:hover{
+    width: 55px;
+    height: 55px;
+    transition: 0.3s;
+}

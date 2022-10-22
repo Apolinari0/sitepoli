@@ -1,0 +1,131 @@
+@charset "UFT-8";
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Fredoka+One&family=Libre+Franklin:wght@100&family=Oswald&family=Passion+One&family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+    background-color: #f8eedc;
+}
+h1{
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+p{
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+header{
+    padding-top: 0px;
+    margin-bottom: 100px;
+}
+header img{
+    height: 100%;
+    width: 100%;
+}
+
+
+#menu-h{
+    background-color:#013B72;
+    text-align: center;
+}
+
+#menu-h ul {
+    max-width: 800px;
+    list-style: none;
+    padding: 0;
+}
+
+#menu-h ul li {
+    display: inline;
+    text-align: center;
+}
+
+#menu-h ul li a {
+    color: #FFF;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+}
+
+#menu-h ul li a:hover {
+    background-color:#FE9171;
+}
+
+#menu-h ul li:last-child a {
+    text-align: right;
+}
+main{
+    border: 10px solid rgba(255, 255, 255, 0);
+    margin: 15px;
+}
+
+#sobre h1{
+    color: #FE9171;
+    text-align: center;
+    padding: 5px;
+}
+#sobre p{
+    color:#0c4375;
+}
+
+#produtos h1{
+    color: rgb(136, 28, 28);
+    padding-top: 50px;
+}
+
+#produtos p{
+    padding-top: 5px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+#produtos img{
+    display: inline-block;
+    padding-top: 20px;
+    width: 420px;
+    height: 400px;
+}
+#produtos img:hover{
+    width: 430px;
+    height: 410px;
+    transition: 1s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    text-align: center;
+    background-color: #0c4375;
+    color: #000000;
+    margin-bottom: 5px;
+}
+footer img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+footer img:hover{
+    width: 55px;
+    height: 55px;
+    transition: 0.3s;
+
+}
