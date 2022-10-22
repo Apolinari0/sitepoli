@@ -90,12 +90,13 @@ main{
 #produtos img{
     display: inline-block;
     padding-top: 20px;
-    width: 420px;
-    height: 400px;
+    width: 380px;
+    height: 350px;
+    margin: 1px;
 }
 #produtos img:hover{
-    width: 430px;
-    height: 410px;
+    width: 400px;
+    height: 380px;
     transition: 1s;
 }
 
