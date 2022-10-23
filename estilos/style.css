@@ -9,7 +9,7 @@
 
 }
 body{
-    background-color: #f8eedc;
+    background-color: #f1ece2;
 }
 h1{
     font-family: 'Libre Franklin', sans-serif;
@@ -67,7 +67,7 @@ main{
 }
 
 #sobre h1{
-    color: #FE9171;
+    color: #f5825e;
     text-align: center;
     padding: 5px;
 }
@@ -94,7 +94,8 @@ main{
     padding-top: 20px;
     width: 320px;
     height: 350px;
-    margin: 1px;
+    margin-left: 15px;
+    align-items: center;
 }
 #produtos img:hover{
     -webkit-transform: scale(1.1);
@@ -112,13 +113,13 @@ main{
     height: 350px;
     text-align: center;
     align-items: center;
-    
+    margin-left: 10px; 
 }
 
 a p:hover{
     color: #FE9171;
     text-decoration: underline;
-    background-color: rgb(63, 65, 223);
+    background-color: rgba(255, 208, 106, 0.123);
     border-radius: 50px;
     
 }
@@ -155,7 +156,7 @@ a p:hover{
     a p:hover{
         color: #FE9171;
         text-decoration: underline;
-        background-color: rgb(63, 65, 223);
+        background-color: rgba(255, 208, 106, 0.123);
         border-radius: 50px;
         
     }
