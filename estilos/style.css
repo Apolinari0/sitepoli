@@ -72,12 +72,14 @@ main{
     padding: 5px;
 }
 #sobre p{
-    color:#0c4375;
+    color:#032646;
 }
 
 #produtos h1{
     color: rgb(136, 28, 28);
     padding-top: 50px;
+    text-align: center;
+    margin: 10px;
 }
 
 #produtos p{
@@ -90,16 +92,79 @@ main{
 #produtos img{
     display: inline-block;
     padding-top: 20px;
-    width: 380px;
+    width: 320px;
     height: 350px;
     margin: 1px;
 }
 #produtos img:hover{
-    width: 400px;
-    height: 380px;
-    transition: 1s;
+    -webkit-transform: scale(1.1);
+   transform: scale(1.1);
 }
 
+#produtos a{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+}
+
+#produto{
+    display: inline-block;
+    width: 320px;
+    height: 350px;
+    text-align: center;
+    align-items: center;
+    
+}
+
+a p:hover{
+    color: #FE9171;
+    text-decoration: underline;
+    background-color: rgb(63, 65, 223);
+    border-radius: 50px;
+    
+}
+
+@media (min-width: 1025px){
+    
+    #menu-h{
+        text-align: center;
+        align-items: center;
+        font-size: 20px;
+    
+    }
+
+
+    #produto{
+        display: inline-block;
+        width: 540px;
+        height: 400px;
+        text-align: center;
+        align-items: center;
+    }
+
+
+    #produtos{
+        margin: 80px;
+        align-items: center;
+    }
+
+    #produtos a{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-decoration: none;
+    }
+
+    a p:hover{
+        color: #FE9171;
+        text-decoration: underline;
+        background-color: rgb(63, 65, 223);
+        border-radius: 50px;
+        
+    }
+
+
+
+
+
+}
 
 
 
