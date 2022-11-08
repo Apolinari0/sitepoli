@@ -125,7 +125,7 @@ form h1{
     color:rgb(16, 16, 119);
 }
 
-.formulario{
+form{
     width: 400px;
     padding: 30px;
     border:1px solid #ccc;
@@ -134,7 +134,7 @@ form h1{
     background-color: rgba(222, 184, 135, 0.288);
 }
 
-.formulario p{
+form p{
     width: 100%;
     font-size: 1.7em;
     color:black;
