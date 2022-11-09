@@ -94,6 +94,14 @@ div img{
 }
 
 
+.fiel, .field span{
+    width: auto;
+    }
+    form, input {
+    width: 100%;
+    }
+
+
 @media (min-width: 1025px){
     
     #menu-h{
@@ -164,7 +172,7 @@ label{
     width: 100%;
 }
 
-.radiobox label{
+.radiobox label {
     width: auto;
     display: inline-block;
     font-size: 15px;
