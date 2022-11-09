@@ -97,9 +97,10 @@ div img{
 .fiel, .field span{
     width: auto;
     }
-    form, input {
-    width: 100%;
-    }
+
+form, input {
+    max-width: 390px;
+}
 
 
 @media (min-width: 1025px){
